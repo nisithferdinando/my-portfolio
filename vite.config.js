@@ -8,5 +8,6 @@ export default defineConfig({
     tailwindcss(),
   ],
   "@tailwindcss/postcss": {},
+  base:"/my-portfolio",
   
 })
