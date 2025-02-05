@@ -42,8 +42,8 @@ const Education = () => {
             <motion.div
               key={index}
               initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.6, delay: index * 0.3 }}
+              whileInView={{opacity:1, x:0}}
+              transition={{ duration: 0.7, delay:0.3 }}
               className={`flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-8 
                 ${index % 2 === 0 ? 'md:flex-row-reverse' : ''}`}
             >
